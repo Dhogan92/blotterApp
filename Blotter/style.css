@@ -1,0 +1,304 @@
+*	{
+	font-family: 'Teko', sans-serif;
+	color: #808B96;
+
+}
+
+
+a:link {
+	color: #8F3DED;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #8F3DED;
+}
+
+a:hover {
+	-webkit-stroke-width: 5.3px;
+	text-decoration: underline;
+}
+
+body {
+	background-color: #FBF7FF;
+	
+}
+
+form {
+	position: relative;
+	left: 680px;
+	top: 12px;
+}
+
+img {
+	max-width: 100%;
+	width: 20px;
+}
+
+li {
+	display: inline;
+	font-family: 'Teko', sans-serif;
+
+}
+
+table {
+	position: relative;
+	margin: auto;
+
+}
+
+td, th {
+	color: white;
+	padding: 7px;
+}
+
+input {
+	border: solid #FBF7FF 2px; 
+	border-radius: 2px; 
+	width: 300px;
+	max-width: 100%;
+	margin: auto;
+
+}
+
+#blotBox {
+	position: relative;
+	max-width: 100%;
+	border: solid #F4ECF7 1px;
+	border-radius: 2px;
+	margin: auto;
+}
+
+.content:hover {
+	-webkit-stroke-width: 5.3px;
+	-webkit-stroke-color: ;
+	-webkit-fill-color: #A222D3;
+		
+}
+
+.content {
+	
+	padding: 10px;
+	border-radius: 4px;
+	border-bottom: solid #FBF7FF 4px;
+
+}
+
+.more {
+	position: relative;
+	width: 15px;
+	float: right; 
+	top: 5px;
+}
+
+.more:hover {
+	-webkit-stroke-width: 5.3px;
+	-webkit-stroke-color: ;
+	-webkit-fill-color: #A222D3;
+	box-shadow: 0px 5px 30px rgba(0,2,0,0.1)	
+}
+
+.propic {
+	position: relative;
+	float: left;
+	width: 25px;
+	top: 0px;
+
+}
+
+.propic2 {
+	position: relative;
+	width: 50px;
+	text-align: center;
+}
+
+.propic3 {
+	position: relative;
+	width: 45px;
+
+}	
+
+#timeline {
+	position: relative;
+	top: 70px;
+	border: solid #FBF7FF 3px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: white;
+	margin: auto;
+	width: 555px;
+	max-width: 100%;
+	box-shadow: 0px -5px 30px rgba(0,2,0,0.05)
+	
+}
+
+#userprof {
+	position: relative;
+	top: 50px;
+	border: solid white 3px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: white;
+	margin: auto;
+	max-width: 100%;
+	background-image: url('https://pre00.deviantart.net/f8b7/th/pre/f/2012/325/a/1/celestial_abstract_image_01_by_antifan_real-d5locw4.jpg');
+	color: white;
+}
+
+#trending {
+	position: relative;
+	top: 70px;
+	border: solid #FBF7FF 3px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: white;
+	margin: auto;
+	width:300px;
+	max-width: 100%;
+	box-shadow: 0px -5px 30px rgba(0,2,0,0.05)
+	
+
+}
+
+#whotofollow {
+	position: relative;
+	top: 70px;
+	width: 310px;
+	border: solid #FBF7FF 3px;
+	border-radius: 5px;
+	background-color: white;
+	margin: auto;
+	max-width: 100%;
+	box-shadow: 0px -5px 30px rgba(0,2,0,0.05)
+	
+}
+
+.verified {
+	position: relative;
+	
+	width: 15px;
+}
+
+.verified2 {
+	position: relative;
+	width: 20px;
+}
+
+#myBtn {
+	border: solid #FBF7FF;
+	width: 100px;
+	border-radius: 5px;
+}
+
+#myBtn2 {
+	border: solid #FBF7FF;
+	width: 100px;
+	border-radius: 5px;
+}
+
+#myBtn: hover {
+	-webkit-stroke-width: 5.3px;
+	-webkit-stroke-color: #933EC5 ;
+
+}
+
+#myBtn2: hover {
+	-webkit-stroke-width: 5.3px;
+	-webkit-stroke-color: #933EC5 ;
+
+}
+
+
+
+
+@media {
+	max-width: 1024px;
+}
+html {
+/* height: 100%!important; */
+	overflow: auto;
+	max-height: 100%;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #FBF7FF;
+    color: #808B96;
+    border-radius: 3px;
+    border: solid white 1px;
+}
+
+.modal-body {
+	padding: 15px 16px;
+	border: solid white 1px;
+}
+
+.modal-footer {
+	border: solid white 1px;
+    padding: 15px 16px;
+    background-color: #FBF7FF;
+    color: white;
+    border-radius: 3px;
+}
+
+
+
+

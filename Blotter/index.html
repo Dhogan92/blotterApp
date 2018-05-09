@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+	Blotter
+</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script type="text/javascript" src="particles.js"></script>
+<style>
+img {
+max-width: 100%;
+}
+</style>
+<link href="style.css" rel="stylesheet">
+</head>
+<body class="header" id='top'>
+	<nav class="navbar navbar-default navbar-fixed-top">
+  		<div class="container">
+    		<div class="navbar-header">
+      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span> 
+      		</button>
+      		<a class="navbar-brand" href="#"><img src="images/eraser.svg" class="logopic" style="width: 20px;"></a>
+    	</div>
+    	<div class="collapse navbar-collapse" id="myNavbar">
+      		<ul class="nav navbar-nav">
+        		<li><a href="#Home" method="POST">Home</a></li>
+        		<li><a href="#Popular" method="POST">Popular</a></li>
+        		<li><a href="#Notifications" method="POST">Notifications</a></li> 
+        		<li><a href="#Messages"  method="POST">Messages</a></li>
+      			<li><form action="/action_page.php">
+	  				<input style="border: solid white 1px; border-radius: 2px; width: 180px;" type="text" placeholder="Looking For Something?.." name="search">
+	  				<button style="border: solid white 1px; border-radius: 5px;" type="submit"><i><img src="images/magnifying-glass.svg" class="sbutton" style="width:10px;"></i></button></form></li>
+	  		</ul>
+  		</div>
+		</div>
+	</nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="userprof" class="col-sm-12">
+				<h4>@BlotterApp</h4>
+			<table>
+			<tr>
+				<th>Blots</th>
+				<th>Following</th>
+				<th>Follwers</th>
+			</tr>
+			<a href="#profile"><li><img src="images/user.svg" class="propic2" alt="Profile"><img src="images/verify.svg" class="verified" alt="checkmark"></a></li>
+			<br/>
+			<tr>
+				<td>8,000</td>
+				<td>500</td>
+				<td>423k</td>
+			</tr>
+			</table>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div id="trending" class="col-md-4">
+				<h2>Trending Now</h2>
+				<article><a href="#">
+			#MarchMadness
+		</article></a>
+				<p class="blottrend">374k Blotting</p>
+				<article><a href="#">
+			#SpringTraining
+		</article></a>
+				<p class="blottrend">303k Blotting</p>
+				<article><a href="#">
+			#WashingtonDC
+		</article></a>
+				<p class="blottrend">297k Blotting</p>
+				<article><a href="#">
+			#WorldWaterDay
+		</article></a>
+				<p class="blottrend">265k Blotting</p>
+				<article><a href="#">
+			#Tesla
+		</article></a>
+				<p class="blottrend">250k Blotting</p>
+				<article><a href="#">
+			#FloridaMan
+		</article></a>
+				<p class="blottrend">243k Blotting</p>
+				<article><a href="#">
+			#FestivalSeason
+		</article></a>
+				<p class="blottrend">204k Blotting</p>
+				<article><a href="#">
+			#OTR2
+		</article></a>
+				<p class="blottrend">198k Blotting</p>
+				<article><a href="#">
+			#BillboardHot100
+		</article></a>
+				<p class="blottrend">154k Blotting</p>
+			</div>
+			<div id="timeline" class='col-md-4'>
+				<br>
+				<button id="myBtn" style="color: #933EC5;">BLOT IT</button>
+
+<!-- The Modal -->
+			<div id="myModal" class="modal">
+				<!-- Modal content -->
+				  <div class="modal-content">
+				    <div class="modal-header">
+				      <span class="close">&times;</span>
+				      <h2>WHAT'S UP!?</h2>
+				    </div>
+				    <div class="modal-body">
+				     <input  class="blotbox" type="text" placeholder="Talk about it!.." name="search">
+				      <button id="myBtn2" style="color: #933EC5;">BLOT IT</button>
+				    </div>
+				    <div class="modal-footer">
+				      <img src="images/eraser.svg" class="logopic" style="width: 20px;">
+				    </div>
+				  </div>
+
+				</div>
+					<div class="content">
+						<a href="#"><td><img src="images/down-arrow.svg" class="more" alt="more button"></a>
+						<h3><a href="#profile"><img src="images/user.svg" class="propic3" alt="Profile"><img src="images/verify.svg" class="verified2" alt="checkmark"></a><a href="#">Young Flipper.</a> @Flipp</h3>
+						<p>Virtute nostrud nominavi ad ius, eos an agam deterruisset, enim exerci scripserit usu no. Sea assum viris an, ei his oblique eligendi facilisis. Eos clita mucius prodesset ne, vis an latine quaerendum, usu at modo fastidii antiopam</p>
+						<article>30 secs ago...</article>
+						<table class="postoptions">
+						<tr>
+							<td><a href="#"><img src="images/reply.svg" alt="reply" style="width: 10px;"></a></td>
+
+							<td><a href="#"><img src="images/recycle.svg" alt="reblotbtn" style="width: 10px;"></a></td>
+
+							<td><a href="#"><img src="images/like.svg" alt="likebtn" style="width: 10px;"></a></td>
+
+							<td><a href="#"><img src="images/mail.svg" alt="message" style="width: 10px;"></a></td>
+						</tr>
+						</table>
+					</div>
+					<div class="content">
+						<a href="#"><img src="images/down-arrow.svg" class="more" alt="more button"></a>
+						<h3><a href="#profile"><li><img src="images/user.svg" class="propic3" alt="Profile"></a><a href="#">Really Bananas.</a>@CrazySpace</h3>
+						<p>Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam</p>
+						<article>2 mins ago...</article>
+						<table class="postoptions">
+							<tr>
+								<td><a href="#"><img src="images/reply.svg" alt="reply" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/recycle.svg" alt="reblotbtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/like.svg" alt="likebtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/mail.svg" alt="message" style="width: 10px;"></td></a>
+							</tr>
+						</table>
+					</div>
+					<div class="content">
+						<a href="#"><img src="images/down-arrow.svg" class="more" alt="more button"></a>
+						<h3><a href="#profile"><li><img src="images/user.svg" class="propic3" alt="Profile"></a><a href="#">The Holey 1.</a>@Cheaappdonuts</h3>
+						<p>Mei te quas invidunt, lorem dolore nostro ne sit. Ei nonumy impedit voluptua est, sit at integre dolorum, ut quo minimum definitiones. Meis tollit accusam ne mel. Mei ea </p>
+						<article>4 mins ago...</article>
+						<table class="postoptions">
+							<tr>
+								<td><a href="#"><img src="images/reply.svg" alt="reply" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/recycle.svg" alt="reblotbtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/like.svg" alt="likebtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/mail.svg" alt="message" style="width: 10px;"></td></a>
+							</tr>
+						</table>
+					</div>
+					<div class="content">
+						<a href="#"><img src="images/down-arrow.svg" class="more" alt="more button"></a>
+						<h3><a href="#profile"><li><img src="images/user.svg" class="propic3" alt="Profile"><img src="images/verify.svg" class="verified2" alt="checkmark"></a><a href="#">Martin Jones.</a>@MartyMart</h3>
+						<p>Vix purto simul partiendo ei, quis quot an his, ei homero quaerendum vis. In has ridens putent constituto. Adhuc summo feugiat nam in.</p><img style="width: 400px; position: relative; max-width: 100%:" src="http://images.says.com/uploads/story_source/source_image/368006/de9c.png">
+						<article>5 mins ago...</article>
+						<table class="postoptions">
+							<tr>
+								<td><a href="#"><img src="images/reply.svg" alt="reply" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/recycle.svg" alt="reblotbtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/like.svg" alt="likebtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/mail.svg" alt="message" style="width: 10px;"></td></a>
+							</tr>
+						</table>
+					</div>
+					<div class="content">
+						<a href="#"><img src="images/down-arrow.svg" class="more" alt="more button"></a>
+						<h3><a href="#profile"><li><img src="images/user.svg" class="propic3" alt="Profile"></a><a href="#">Make Like a Tree.</a>@LeafyWind</h3>
+						<p> No solet tollit nostro vis, adolescens deseruisse accommodare an ius. Assum scripserit eum ex, id etiam deleniti tacimates pro. Nam ea petentium explicari.</p>
+						<article>7 mins ago...</article>
+						<table class="postoptions">
+							<tr>
+								<td><a href="#"><img src="images/reply.svg" alt="reply" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/recycle.svg" alt="reblotbtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/like.svg" alt="likebtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/mail.svg" alt="message" style="width: 10px;"></td></a>
+							</tr>
+						</table>
+					</div>
+					<div class="content">
+						<a href="#"><img src="images/down-arrow.svg" class="more" alt="more button"></a>
+						<h3><a href="#profile"><li><img src="images/user.svg" class="propic3" alt="Profile"><img src="images/verify.svg" class="verified2" alt="checkmark"></a><a href="#">On Any Block.</a>@MillyRoxker</h3>
+						<p>Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+						<article>9 mins ago...</article>
+						<table class="postoptions">
+							<tr>
+								<td><a href="#"><img src="images/reply.svg" alt="reply" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/recycle.svg" alt="reblotbtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/like.svg" alt="likebtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/mail.svg" alt="message" style="width: 10px;"></td></a>
+							</tr>
+						</table>
+					</div>
+					<div class="content">
+						<a href="#"><img src="images/down-arrow.svg" class="more" alt="more button"></a>
+						<h3><a href="#profile"><li><img src="images/user.svg" class="propic3" alt="Profile"><a href="#">Level Up.</a>@FinalFntsyFan</a></h3>
+						<p>Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti.</p>
+						<article>11 mins ago...</article>
+						<table class="postoptions">
+							<tr>
+								<td><a href="#"><img src="images/reply.svg" alt="reply" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/recycle.svg" alt="reblotbtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/like.svg" alt="likebtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/mail.svg" alt="message" style="width: 10px;"></td></a>
+							</tr>
+						</table>
+					</div>
+		
+		
+					<div class="content">
+						<a href="#"><img src="images/down-arrow.svg" class="more" alt="more button"></a>
+						<h3><a href="#profile"><li><img src="images/user.svg" class="propic3" alt="Profile"></a><a href="#">Ill Quack you up :).</a>@LuckyDuck</h3>
+						<p>Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna.</p>
+						<article>14 mins ago...</article>
+						<table class="postoptions">
+							<tr>
+								<td><a href="#"><img src="images/reply.svg" alt="reply" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/recycle.svg" alt="reblotbtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/like.svg" alt="likebtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/mail.svg" alt="message" style="width: 10px;"></td></a>
+							</tr>
+						</table>
+					</div>
+	
+		
+					<div class="content">
+						<a href="#"><img src="images/down-arrow.svg" class="more" alt="more button"></a>
+						<h3><a href="#profile"><li><img src="images/user.svg" class="propic3" alt="Profile"><img src="images/verify.svg" class="verified2" alt="checkmark"></a><a href="#">Mr. Matthews.</a>@KyleMatthews</h3>
+						<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam.</p>
+						<article>15 mins ago...</article>
+						<table class="postoptions">
+							<tr>
+								<td><a href="#"><img src="images/reply.svg" alt="reply" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/recycle.svg" alt="reblotbtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/like.svg" alt="likebtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/mail.svg" alt="message" style="width: 10px;"></td></a>
+							</tr>
+						</table>
+					</div>
+
+		
+					<div class="content">
+						<a href="#"><img src="images/down-arrow.svg" class="more" alt="more button"></a>
+						<h3><a href="#profile"><li><img src="images/user.svg" class="propic3" alt="Profile"><img src="images/verify.svg" class="verified2" alt="checkmark"></a><a href="#">Let's Take Flight.</a>@UpAirlines</h3>
+						<p> viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus.</p><img style="width: 400px; position: relative; max-width: 100%;" src="https://d3jkudlc7u70kh.cloudfront.net/airplane-fact.jpg">
+						<article>17 mins ago...</article>
+						<table class="postoptions">
+							<tr>
+								<td><a href="#"><img src="images/reply.svg" alt="reply" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/recycle.svg" alt="reblotbtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/like.svg" alt="likebtn" style="width: 10px;"></td></a>
+
+								<td><a href="#"><img src="images/mail.svg" alt="message" style="width: 10px;"></td></a>
+							</tr>
+						</table>
+					</div>
+			</div>		
+
+			<div id="whotofollow" class='col-md-4'>
+					<h3 class="whotitle">Who To Follow</h3>
+						<article class="wtf">
+							<a href="#profile"><li><img src="images/user.svg" class="propic3" alt="Profile"><a href="#">Mindin My BeesWax.</a>@HoneyQueen
+						</article>
+						<br>
+						<article class="wtf">
+							<a href="#profile"><li><img src="images/user.svg" class="propic3" alt="Profile"><img src="images/verify.svg" class="verified2" alt="checkmark"><a href="#">Live IT uP.</a>@LennyMarsh
+						</article>
+						<br>
+						<article class="wtf"><a href="#profile"><li><img src="images/user.svg" class="propic3" alt="Profile">	<a href="#">Gettin' Jiggy.</a>@Phatso
+						</article>
+						<br>
+			</div>
+</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src='script.js'></script>
+	<script>
+		$(document).ready(() => {
+			$('.content').animate({left: 0});
+
+	
+});
+	</script>
+</body>
+<footer>
+</footer>
+</html>
